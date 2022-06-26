@@ -6,3 +6,67 @@
   box-sizing: border-box;
 }
 
+.container {
+  width: 80%;
+  min-width: 1000px;
+  margin: auto;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 100%;
+  min-width: 1100px;
+}
+
+img {
+  max-width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+header .additional-bar {
+  height: 20px;
+  background-color: #0282f9;
+  line-height: 20px;
+}
+
+header .additional-bar__content {
+  display: flex;
+  justify-content: flex-end;
+}
+
+header .additional-bar__content a {
+  text-transform: uppercase;
+  color: white;
+  margin: 0 1rem;
+  font-size: 10px;
+}
+
+header .menu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-width: 1000px;
+}
+
+header .menu__logo {
+  width: 5rem;
+  padding: 5px;
+}
+
+header .menu nav ul {
+  display: flex;
+}
+
+header .menu nav ul li {
+  margin: 0 1rem;
+}
+
