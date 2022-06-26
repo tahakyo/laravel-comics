@@ -70,3 +70,8 @@ header .menu nav ul li {
   margin: 0 1rem;
 }
 
+.jumbotron {
+  height: 290px;
+  overflow: hidden;
+}
+
