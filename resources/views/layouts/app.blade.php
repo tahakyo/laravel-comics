@@ -10,9 +10,9 @@
 <body>
 
   @include('partials.header')
+  @include('partials.jumbotron')
 
   <main>
-    @include('partials.jumbotron')
     @yield('main_content')
   </main>
 

@@ -75,3 +75,29 @@ header .menu nav ul li {
   overflow: hidden;
 }
 
+.comics {
+  background-color: #303030;
+}
+
+.comics__list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.comics__list__card {
+  width: calc(16.6666666667% - 20px);
+  margin: 10px;
+}
+
+.comics__list__card .image {
+  height: 150px;
+  overflow: hidden;
+}
+
+.comics__list__card h5 {
+  padding: 0.5rem 0;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: white;
+}
+

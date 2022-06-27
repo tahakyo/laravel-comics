@@ -5,5 +5,21 @@
 @endsection
 
 @section('main_content')
-    <h1>hello</h1>
+    <div class="comics">
+        <div class="container">
+            <div class="comics__list">
+                @foreach ($data as $item)
+                {{-- Card --}}
+                <div class="comics__list__card">
+                    <div class="image">
+                        <img src="{{ $item['thumb'] }}"
+                            alt="{{ $item['title'] }}">
+                    </div>
+                    <h5>{{ $item['series'] }}</h5>
+                </div>
+                {{-- Card --}}
+                @endforeach
+            </div>
+        </div>
+    </div>
 @endsection
