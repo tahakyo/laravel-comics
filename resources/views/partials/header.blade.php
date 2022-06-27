@@ -12,13 +12,11 @@
     </div>
     <nav>
       <ul>
-        <li>menu#</li>
-        <li>menu#</li>
-        <li>menu#</li>
-        <li>menu#</li>
-        <li>menu#</li>
-        <li>menu#</li>
-        <li>menu#</li>
+        @foreach ($menu as $item)
+        
+          <a href=""><li>{{ $item['title'] }}</li></a>
+        @endforeach
+        
       </ul>
     </nav>
   </div>

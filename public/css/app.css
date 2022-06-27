@@ -67,11 +67,19 @@ header .menu nav ul {
 }
 
 header .menu nav ul li {
+  text-transform: uppercase;
   margin: 0 1rem;
+  line-height: 83px;
+}
+
+header .menu nav ul li.active,
+header .menu nav ul li:hover {
+  border-bottom: 4px solid #0282f9;
 }
 
 .jumbotron {
-  height: 290px;
+  min-height: 340px;
+  max-height: 360px;
   overflow: hidden;
 }
 
@@ -90,7 +98,7 @@ header .menu nav ul li {
 }
 
 .comics__list__card .image {
-  height: 150px;
+  max-height: 180px;
   overflow: hidden;
 }
 

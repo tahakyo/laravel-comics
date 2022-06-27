@@ -7,6 +7,7 @@ header {
     &__content {
       display: flex;
       justify-content: flex-end;
+
       a {
         text-transform: uppercase;
         color: white;
@@ -21,14 +22,23 @@ header {
     justify-content: space-around;
     align-items: center;
     min-width: 1000px;
+
     &__logo {
       width: 5rem;
       padding: 5px;
     }
+
     nav ul {
       display: flex;
+
       li {
+        text-transform: uppercase;
         margin: 0 1rem;
+        line-height: 83px;
+        &.active,
+        &:hover {
+          border-bottom: 4px solid #0282f9;
+        }
       }
     }
   }
