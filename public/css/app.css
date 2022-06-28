@@ -14,7 +14,6 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  font-weight: 500;
   font-size: 100%;
   min-width: 1100px;
 }
@@ -107,5 +106,49 @@ header .menu nav ul li:hover {
   font-size: 0.8rem;
   font-weight: 500;
   color: white;
+}
+
+.single_comic .blue_bar {
+  height: 50px;
+  background-color: #0282f9;
+  margin-bottom: 2rem;
+}
+
+.single_comic .comic__infos {
+  display: flex;
+}
+
+.single_comic .comic__infos__left {
+  width: 65%;
+  margin-right: 1.5rem;
+}
+
+.single_comic .comic__infos__left .title {
+  font-size: 25px;
+  font-weight: 700;
+  padding: 1rem 0;
+}
+
+.single_comic .comic__infos__left .price_availability {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 0;
+  background-color: #55ba59;
+}
+
+.single_comic .comic__infos__left .price_availability .price {
+  display: flex;
+  justify-content: space-between;
+  width: 75%;
+  border-right: 1px solid gray;
+  padding: 10px;
+}
+
+.single_comic .comic__infos__left .price_availability .availability {
+  padding: 10px;
+}
+
+.single_comic .comic__infos__left .description p {
+  font-size: 14px;
 }
 
